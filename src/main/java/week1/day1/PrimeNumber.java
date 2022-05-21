@@ -3,10 +3,12 @@ package week1.day1;
 public class PrimeNumber {
 
 	public static void main(String[] args) {
-		int input = 81;
+		int input = 1;
 		boolean flag = false;
 		int rem;
-
+		if(input==1)
+		System.out.println("THIS IS TO CHECK");
+		
 		for(int i=2; i<input/2; i++) {
 			rem = input%i;
 			if(rem==0) {
